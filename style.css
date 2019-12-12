@@ -1,0 +1,70 @@
+/* https://colorhunt.co/palette/163836 */
+body {
+	background-color: #f4f4f4;
+	color: #393E46;
+}
+
+h1, h2 {
+	color: #4d80e4;
+}
+
+img {
+	height: 300px;
+}
+
+a {
+	color: #46b3e6;
+}
+
+a:hover {
+	color: #4d80e4;
+}
+
+.container {
+	width: 1000px;
+	margin: 10px auto;
+}
+
+.box {
+	background: #fCFCfC;
+	padding: 30px;
+	box-shadow: 0px 5px 30px rgba(0,0,0,0.1);
+	margin: 30px;
+}
+
+@media (max-width: 1000px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i {
+	font-size: : 50px;
+	color: #46b3e6;
+}
+
+.list-inline i:hover {
+	color: blue
+}
